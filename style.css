@@ -660,3 +660,46 @@ img {
 .container, .services-container, .project-container {
   width: 100%;
 }
+/* ===== FINAL MOBILE FIX ===== */
+@media (max-width: 768px) {
+
+  /* Prevent sideways scroll */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* Services full width (1 column) */
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+
+  /* Fix hero text */
+  .hero h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .hero p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* Buttons vertical */
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Projects fix */
+  .project-container {
+    grid-template-columns: 1fr;
+  }
+
+}
