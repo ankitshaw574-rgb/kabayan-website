@@ -703,3 +703,18 @@ img {
   }
 
 }
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+    padding: 20px;
+    background-position: center top;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+}
