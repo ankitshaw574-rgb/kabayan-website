@@ -718,3 +718,7 @@ img {
     font-size: 14px;
   }
 }
+.hero-content {
+  max-width: 90%;
+  margin: auto;
+}
